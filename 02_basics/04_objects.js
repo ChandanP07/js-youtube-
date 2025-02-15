@@ -44,11 +44,48 @@ const users = [
 
 // users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isloggedin'))
+// console.log(tinderUser.hasOwnProperty('isloggedin'))
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price:"999",
+    courseInstructor:"chandan"
+}
+
+// course.courseInstructor
+
+const {courseInstructor:Instructor} = course
+
+// console.log(courseInstructor)
+console.log(Instructor)
+
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "facebook")
+
+
+// API  
+
+// {
+//     "name":"hitesh",
+//     "coursename":"js in hindi",
+//     "price":"free",
+// }
+[
+    {},
+    {},
+    {}
+]
+
