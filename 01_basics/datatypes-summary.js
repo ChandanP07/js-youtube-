@@ -12,15 +12,17 @@ let userEmail;
 const id = Symbol("123"); // ==> symbol
 const anotherid = Symbol("123");
 
-// console.log(id === anotherid);   // false
+// console.log(id === anotherid);   // false because symbol are unique
 
 const bigNumber = 235465721326589844561n; // ==> bigint
+
+
 
 // Reference (Non primitive)
 
 // Array, Objects, Functions
 
-const heros = ["batman", "superman", "wonderwoman"]; // ==> object
+const heros = ["batman", "superman", "wonderwoman"]; // ==> array
 
 let myObj = {
   // ==> object
