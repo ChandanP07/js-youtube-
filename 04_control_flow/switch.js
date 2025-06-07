@@ -10,23 +10,17 @@
 const month=3
 
 switch (month) {
-    case 1:
-        console.log("January");    
+    case 1: console.log("January");    
         break;
-    case 2:
-        console.log("February");    
+    case 2: console.log("February");    
         break;
-    case 3:
-        console.log("March");    
+    case 3: console.log("March");    
         break;
-    case 4:
-        console.log("April");    
+    case 4: console.log("April");    
         break;
-    case 5:
-        console.log("May");    
+    case 5: console.log("May");    
         break;
-
-    default:
-        console.log("default case match");
+        
+    default: console.log("default case match");
         break;
 }

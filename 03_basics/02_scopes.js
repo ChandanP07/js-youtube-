@@ -19,8 +19,8 @@ function one(){
         const website="youtube"
         console.log(username);
     }
-    // console.log(website);
-    // two()
+    console.log(website);
+    // two();
     
 }
 
@@ -31,7 +31,7 @@ if (true){
   const username="Chandan"
   if(username==="Chandan"){
     const website="youtube"
-    // console.log(username +website);
+    console.log(username +website);
   }
   // console.log(website);
 }
@@ -47,7 +47,7 @@ function addone(num){
 }
 
 
-addTwo(5)
 const addTwo = function(num){
   return num + 2
 }
+// console.log(addTwo(5))
