@@ -5,7 +5,7 @@
 
 # Solution Code
 
-## project 1
+## project 1 solution
 ```javascript
 console.log("chandan")
 const buttons = document.querySelectorAll('.button');
