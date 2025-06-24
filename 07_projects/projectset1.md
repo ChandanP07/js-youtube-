@@ -5,7 +5,7 @@
 
 # Solution Code
 
-## project 1 solution
+## Project 1 solution
 ```javascript
 console.log("chandan")
 const buttons = document.querySelectorAll('.button');
@@ -37,7 +37,7 @@ buttons.forEach(function (button) {
 
 ```
 
-## project 2 solution
+## Project 2 solution
 ```javascript
 
 const form = document.querySelector('form');
@@ -74,7 +74,7 @@ form.addEventListener('submit', function (event) {
 });
 ```
 
-## project 3 solution
+## Project 3 solution
 ```javascript
 const clock = document.getElementById('clock');
 
@@ -183,7 +183,36 @@ function endGame() {
 ```
 
 
-## project 3 solution
+## Project 5 solution
+```javascript
+
+const insert = document.getElementById('insert');
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+  <div class='color'>
+  <table>
+  <tr>
+    <th>Key</th>
+    <th>Keycode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>${e.key === ' ' ? 'Space' : e.key}</td>
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
+  </tr>
+  </table>
+  </div>
+  `;
+});
+
+
+
+
+```
+
+## Project 6 solution
 ```javascript
 
 // generate a random colour
